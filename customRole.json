@@ -1,0 +1,13 @@
+{
+  "Name": "Custom Role Name",
+  "IsCustom": true,
+  "Description": "Description of custom role",
+  "Actions": [
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/deallocate/action"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/<subscription-id>"
+  ]
+}
